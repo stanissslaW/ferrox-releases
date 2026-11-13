@@ -1,0 +1,14 @@
+name: notify
+on: push
+jobs:
+  hook:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Сообщить серверу Ferrox о новой версии
+        run: |
+          v=$(curl -fsS "https://raw.githubusercontent.com/${{ github.repository }}/${{ github.sha }}/version" | tr -d '[:space:]')
+          for i in 1 2 3 4 5; do
+            curl -fsS -X POST "https://ferrox.ferrox.workers.dev/v1/release-hook?v=$v&sha=${{ github.sha }}" && exit 0
+            sleep 15
+          done
+          exit 1

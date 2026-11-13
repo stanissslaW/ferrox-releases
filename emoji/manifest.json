@@ -1,0 +1,506 @@
+{
+ "version": 1,
+ "emoji": {
+  "smile": {
+   "tg": "tg/smile.webp",
+   "fb": "🙂",
+   "tier": "free",
+   "anim": false
+  },
+  "joy": {
+   "tg": "tg/joy.webp",
+   "fb": "😄",
+   "tier": "free",
+   "anim": false
+  },
+  "laugh": {
+   "tg": "tg/laugh.webp",
+   "fb": "😆",
+   "tier": "free",
+   "anim": false
+  },
+  "wink": {
+   "tg": "tg/wink.webp",
+   "fb": "😉",
+   "tier": "free",
+   "anim": false
+  },
+  "wow": {
+   "tg": "tg/wow.webp",
+   "fb": "😮",
+   "tier": "free",
+   "anim": false
+  },
+  "sad": {
+   "tg": "tg/sad.webp",
+   "fb": "😢",
+   "tier": "free",
+   "anim": false
+  },
+  "angry": {
+   "tg": "tg/angry.webp",
+   "fb": "😠",
+   "tier": "free",
+   "anim": false
+  },
+  "cool": {
+   "tg": "tg/cool.webp",
+   "fb": "😎",
+   "tier": "free",
+   "anim": false
+  },
+  "think": {
+   "tg": "tg/think.webp",
+   "fb": "🤔",
+   "tier": "free",
+   "anim": false
+  },
+  "love": {
+   "tg": "tg/love.webp",
+   "fb": "😍",
+   "tier": "plus",
+   "anim": false
+  },
+  "cry": {
+   "tg": "tg/cry.webm",
+   "fb": "😭",
+   "tier": "plus",
+   "anim": true
+  },
+  "rofl": {
+   "tg": "tg/rofl.webm",
+   "fb": "🤣",
+   "tier": "plus",
+   "anim": true
+  },
+  "rage": {
+   "tg": "tg/rage.webm",
+   "fb": "🤬",
+   "tier": "max",
+   "anim": true
+  },
+  "mindblown": {
+   "tg": "tg/mindblown.webm",
+   "fb": "🤯",
+   "tier": "max",
+   "anim": true
+  },
+  "party": {
+   "tg": "tg/party.webm",
+   "fb": "🥳",
+   "tier": "max",
+   "anim": true
+  },
+  "like": {
+   "tg": "tg/like.webp",
+   "fb": "👍",
+   "tier": "free",
+   "anim": false
+  },
+  "dislike": {
+   "tg": "tg/dislike.webp",
+   "fb": "👎",
+   "tier": "free",
+   "anim": false
+  },
+  "heart": {
+   "tg": "tg/heart.webp",
+   "fb": "❤️",
+   "tier": "free",
+   "anim": false
+  },
+  "fire": {
+   "tg": "tg/fire.webp",
+   "fb": "🔥",
+   "tier": "free",
+   "anim": false
+  },
+  "ok": {
+   "tg": "tg/ok.webp",
+   "fb": "✅",
+   "tier": "free",
+   "anim": false
+  },
+  "eyes": {
+   "tg": "tg/eyes.webp",
+   "fb": "👀",
+   "tier": "free",
+   "anim": false
+  },
+  "star": {
+   "tg": "tg/star.webp",
+   "fb": "⭐",
+   "tier": "free",
+   "anim": false
+  },
+  "heartbeat": {
+   "tg": "tg/heartbeat.webm",
+   "fb": "💓",
+   "tier": "plus",
+   "anim": true
+  },
+  "blaze": {
+   "tg": "tg/blaze.webm",
+   "fb": "🔥",
+   "tier": "plus",
+   "anim": true
+  },
+  "superlike": {
+   "tg": "tg/superlike.webm",
+   "fb": "👍",
+   "tier": "max",
+   "anim": true
+  },
+  "cpu": {
+   "tg": "tg/cpu.webp",
+   "fb": "🔲",
+   "tier": "free",
+   "anim": false
+  },
+  "ram": {
+   "tg": "tg/ram.webp",
+   "fb": "🧩",
+   "tier": "free",
+   "anim": false
+  },
+  "disk": {
+   "tg": "tg/disk.webp",
+   "fb": "💽",
+   "tier": "free",
+   "anim": false
+  },
+  "clean": {
+   "tg": "tg/clean.webp",
+   "fb": "🧹",
+   "tier": "free",
+   "anim": false
+  },
+  "bug": {
+   "tg": "tg/bug.webp",
+   "fb": "🐞",
+   "tier": "free",
+   "anim": false
+  },
+  "fix": {
+   "tg": "tg/fix.webp",
+   "fb": "🔧",
+   "tier": "free",
+   "anim": false
+  },
+  "rocket": {
+   "tg": "tg/rocket.webp",
+   "fb": "🚀",
+   "tier": "free",
+   "anim": false
+  },
+  "gpu": {
+   "tg": "tg/gpu.webp",
+   "fb": "🎮",
+   "tier": "plus",
+   "anim": false
+  },
+  "temp": {
+   "tg": "tg/temp.webp",
+   "fb": "🌡️",
+   "tier": "plus",
+   "anim": false
+  },
+  "fan": {
+   "tg": "tg/fan.webm",
+   "fb": "🌀",
+   "tier": "plus",
+   "anim": true
+  },
+  "liftoff": {
+   "tg": "tg/liftoff.webm",
+   "fb": "🚀",
+   "tier": "plus",
+   "anim": true
+  },
+  "sweep": {
+   "tg": "tg/sweep.webm",
+   "fb": "🧹",
+   "tier": "max",
+   "anim": true
+  },
+  "error": {
+   "tg": "tg/error.webp",
+   "fb": "❌",
+   "tier": "free",
+   "anim": false
+  },
+  "warning": {
+   "tg": "tg/warning.webp",
+   "fb": "⚠️",
+   "tier": "free",
+   "anim": false
+  },
+  "success": {
+   "tg": "tg/success.webp",
+   "fb": "✅",
+   "tier": "free",
+   "anim": false
+  },
+  "info": {
+   "tg": "tg/info.webp",
+   "fb": "ℹ️",
+   "tier": "free",
+   "anim": false
+  },
+  "update": {
+   "tg": "tg/update.webp",
+   "fb": "🔄",
+   "tier": "free",
+   "anim": false
+  },
+  "shield": {
+   "tg": "tg/shield.webp",
+   "fb": "🛡️",
+   "tier": "free",
+   "anim": false
+  },
+  "bell": {
+   "tg": "tg/bell.webp",
+   "fb": "🔔",
+   "tier": "free",
+   "anim": false
+  },
+  "loading": {
+   "tg": "tg/loading.webm",
+   "fb": "⏳",
+   "tier": "plus",
+   "anim": true
+  },
+  "updating": {
+   "tg": "tg/updating.webm",
+   "fb": "🔄",
+   "tier": "plus",
+   "anim": true
+  },
+  "scan": {
+   "tg": "tg/scan.webm",
+   "fb": "🛡️",
+   "tier": "max",
+   "anim": true
+  },
+  "online": {
+   "tg": "tg/online.webp",
+   "fb": "🟢",
+   "tier": "plus",
+   "anim": false
+  },
+  "busy": {
+   "tg": "tg/busy.webp",
+   "fb": "⛔",
+   "tier": "plus",
+   "anim": false
+  },
+  "away": {
+   "tg": "tg/away.webp",
+   "fb": "🌙",
+   "tier": "plus",
+   "anim": false
+  },
+  "coding": {
+   "tg": "tg/coding.webp",
+   "fb": "💻",
+   "tier": "plus",
+   "anim": false
+  },
+  "gaming": {
+   "tg": "tg/gaming.webp",
+   "fb": "🎮",
+   "tier": "plus",
+   "anim": false
+  },
+  "sleep": {
+   "tg": "tg/sleep.webm",
+   "fb": "😴",
+   "tier": "max",
+   "anim": true
+  },
+  "ferrox": {
+   "tg": "tg/ferrox.webp",
+   "fb": "🟥",
+   "tier": "free",
+   "anim": false
+  },
+  "bolt": {
+   "tg": "tg/bolt.webp",
+   "fb": "⚡",
+   "tier": "free",
+   "anim": false
+  },
+  "ferrox_live": {
+   "tg": "tg/ferrox_live.webm",
+   "fb": "🟥",
+   "tier": "plus",
+   "anim": true
+  },
+  "dotheart": {
+   "tg": "tg/dotheart.webp",
+   "fb": "❤️",
+   "tier": "plus",
+   "anim": false
+  },
+  "plus": {
+   "tg": "tg/plus.webp",
+   "fb": "➕",
+   "tier": "plus",
+   "anim": false
+  },
+  "max": {
+   "tg": "tg/max.webp",
+   "fb": "💎",
+   "tier": "max",
+   "anim": false
+  },
+  "vip": {
+   "tg": "tg/vip.webp",
+   "fb": "🏅",
+   "tier": "max",
+   "anim": false
+  },
+  "crown": {
+   "tg": "tg/crown.webp",
+   "fb": "👑",
+   "tier": "max",
+   "anim": false
+  },
+  "gem": {
+   "tg": "tg/gem.webm",
+   "fb": "💎",
+   "tier": "max",
+   "anim": true
+  },
+  "legend": {
+   "tg": "tg/legend.webm",
+   "fb": "🌟",
+   "tier": "max",
+   "anim": true
+  },
+  "owner": {
+   "tg": "tg/owner.webp",
+   "fb": "👑",
+   "tier": "staff",
+   "anim": false
+  },
+  "admin": {
+   "tg": "tg/admin.webp",
+   "fb": "🛡️",
+   "tier": "staff",
+   "anim": false
+  },
+  "support": {
+   "tg": "tg/support.webp",
+   "fb": "🎧",
+   "tier": "staff",
+   "anim": false
+  },
+  "tester": {
+   "tg": "tg/tester.webp",
+   "fb": "🧪",
+   "tier": "staff",
+   "anim": false
+  }
+ },
+ "stickers": [
+  {
+   "name": "hi",
+   "file": "stickers/hi.png",
+   "emoji": "👋",
+   "anim": false
+  },
+  {
+   "name": "lol",
+   "file": "stickers/lol.webm",
+   "emoji": "🤣",
+   "anim": true
+  },
+  {
+   "name": "wow",
+   "file": "stickers/wow.webm",
+   "emoji": "🤯",
+   "anim": true
+  },
+  {
+   "name": "rage",
+   "file": "stickers/rage.webm",
+   "emoji": "🤬",
+   "anim": true
+  },
+  {
+   "name": "cool",
+   "file": "stickers/cool.png",
+   "emoji": "😎",
+   "anim": false
+  },
+  {
+   "name": "fixed",
+   "file": "stickers/fixed.png",
+   "emoji": "🔧",
+   "anim": false
+  },
+  {
+   "name": "bug",
+   "file": "stickers/bug.png",
+   "emoji": "🐞",
+   "anim": false
+  },
+  {
+   "name": "update",
+   "file": "stickers/update.webm",
+   "emoji": "🔄",
+   "anim": true
+  },
+  {
+   "name": "fast",
+   "file": "stickers/fast.webm",
+   "emoji": "🚀",
+   "anim": true
+  },
+  {
+   "name": "clean",
+   "file": "stickers/clean.webm",
+   "emoji": "🧹",
+   "anim": true
+  },
+  {
+   "name": "safe",
+   "file": "stickers/safe.webm",
+   "emoji": "🛡",
+   "anim": true
+  },
+  {
+   "name": "ok",
+   "file": "stickers/ok.png",
+   "emoji": "👌",
+   "anim": false
+  },
+  {
+   "name": "sad",
+   "file": "stickers/sad.webm",
+   "emoji": "😢",
+   "anim": true
+  },
+  {
+   "name": "sleep",
+   "file": "stickers/sleep.webm",
+   "emoji": "😴",
+   "anim": true
+  },
+  {
+   "name": "party",
+   "file": "stickers/party.webm",
+   "emoji": "🥳",
+   "anim": true
+  },
+  {
+   "name": "love",
+   "file": "stickers/love.webm",
+   "emoji": "❤️",
+   "anim": true
+  }
+ ],
+ "hash": "29c20a054c758918"
+}
